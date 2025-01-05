@@ -2,7 +2,7 @@
 
 Super simple AMM implementation in 17 lines of code.
 
-```sol
+```ts
 contract MiniAMM {
     mapping(bool => address) public toks;
     constructor(address ta, address tb) {
